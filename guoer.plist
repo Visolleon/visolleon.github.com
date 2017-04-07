@@ -1,50 +1,30 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
     <dict>
-        <!-- array of downloads. -->
         <key>items</key>
         <array>
             <dict>
-
-                <!-- an array of assets to download -->
                 <key>assets</key>
                 <array>
-
-                    <!-- software-package: the ipa to install. -->
                     <dict>
-
-                        <!-- required.  the asset kind. -->
                         <key>kind</key>
                         <string>software-package</string>
-
-                        <!-- required.  the URL of the file to download. -->
                         <key>url</key>
                         <string>http://www.happyseven.cn/guoer/guoer.ipa</string>
                     </dict>
-
-                    <!-- display-image: the icon to display during download. -->
                     <dict>
-
                         <key>kind</key>
                         <string>display-image</string>
-
-                        <!-- optional. icon needs shine effect applied. -->
                         <key>needs-shine</key>
                         <true/>
-
                         <key>url</key>
                         <string>http://www.happyseven.cn/guoer/images/57x57.png</string>
                     </dict>
-
-                    <!-- full-size-image: the large 512×512 icon used by iTunes. -->
                     <dict>
-
                         <key>kind</key>
                         <string>full-size-image</string>
-
                         <key>needs-shine</key>
                         <true/>
-
                         <key>url</key>
                         <string>http://www.happyseven.cn/guoer/images/1024.png</string>
                     </dict>
@@ -52,20 +32,12 @@
 
                 <key>metadata</key>
                 <dict>
-
-                    <!-- required -->
                     <key>bundle-identifier</key>
                     <string>com.example.fooapp</string>
-
-                    <!-- optional (software only) -->
                     <key>bundle-version</key>
                     <string>0.9.2</string>
-
-                    <!-- required.  the download kind. -->
                     <key>kind</key>
                     <string>software</string>
-
-                    <!-- required.  the title to display during the download. -->
                     <key>title</key>
                     <string>果儿金融</string>
                 </dict>
